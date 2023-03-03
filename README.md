@@ -25,7 +25,8 @@ To run the Selenium UI tests, you will need:
 - Google Chrome: [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 - Mozilla Firefox: [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
 - Microsoft Edge: [EdgeDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
-  4 Clone or download this repository to your local machine.
+
+4 Clone or download this repository to your local machine.
 
 5 Open the project in your code editor or IDE.
 
