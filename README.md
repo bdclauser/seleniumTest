@@ -18,7 +18,9 @@ To run the Selenium UI tests, you will need:
 
 2 Install Selenium WebDriver for Python by running the following command in your command prompt or terminal:
 
-`pip install selenium`
+```python
+pip install selenium
+```  
 
 3 Download and install the appropriate web driver for your browser:
 
@@ -38,7 +40,9 @@ To run the tests, follow these steps:
 
 2 Run the following command to execute the test file:
 
-`python test_file.py`
+```python
+python test_file.py
+```  
 _Note: Replace "test_file.py" with the name of your test file._
 
 3 The tests will run in your browser and the results will be displayed in the console.
