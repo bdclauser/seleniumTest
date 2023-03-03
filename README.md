@@ -14,38 +14,50 @@ To run the Selenium UI tests, you will need:
 
 ## Installation
 
-1 Install Python 3.x on your computer by following the instructions provided [here](https://www.python.org/downloads/).
+1. Install Python 3.x on your computer by following the instructions provided [here](https://www.python.org/downloads/).
 
-2 Install Selenium WebDriver for Python by running the following command in your command prompt or terminal:
+2. Install `pip install pipenv` from the command line to install pipenv.
+
+3. Install Selenium WebDriver for Python by running the following command in your command prompt or terminal:
 
 ```python
 pip install selenium
 ```  
 
-3 Download and install the appropriate web driver for your browser:
+4. Download and install the appropriate web driver for your browser:
 
 - Google Chrome: [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 - Mozilla Firefox: [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
 - Microsoft Edge: [EdgeDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
 
-4 Clone or download this repository to your local machine.
+ChromeDriver and geckodriver mustbe installed on the [system path](https://en.wikipedia.org/wiki/PATH_(variable)).
 
-5 Open the project in your code editor or IDE.
+5. Clone or download this repository to your local machine.
+
+6. Open the project in your code editor or IDE.
+
+## WebDriver SetUp for Windows
+
+To Install ChromeDriver and geckodriver on Windows
+
+1. Create a folder named C:\Selenium.
+2. Move the executables into this folder.
+3. Add this folder to the Path environment variable. (See [How to Add to Windows PATH Environment Variable](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/).)
 
 ## Running the Tests
 
 To run the tests, follow these steps:
 
-1 Open the command prompt or terminal and navigate to the project directory.
+1. Open the command prompt or terminal and navigate to the project directory.
 
-2 Run the following command to execute the test file:
+2. Run the following command to execute the test file:
 
 ```python
 python test_file.py
 ```  
 _Note: Replace "test_file.py" with the name of your test file._
 
-3 The tests will run in your browser and the results will be displayed in the console.
+3. The tests will run in your browser and the results will be displayed in the console.
 
 ## Conclusion
 
