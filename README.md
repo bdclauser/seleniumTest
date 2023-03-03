@@ -5,7 +5,6 @@ This project is designed to test the user interface (UI) of a web application us
 ## Prerequisites
 
 To run the Selenium UI tests, you will need:
-
 - A computer running Windows, macOS, or Linux
 - Google Chrome, Mozilla Firefox, or Microsoft Edge installed on your computer
 - Python 3.x installed on your computer
@@ -25,10 +24,9 @@ pip install selenium
 ```  
 
 4. Download and install the appropriate web driver for your browser:
-
-- Google Chrome: [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
-- Mozilla Firefox: [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
-- Microsoft Edge: [EdgeDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
+    - Google Chrome: [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+    - Mozilla Firefox: [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
+    - Microsoft Edge: [EdgeDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
 
 ChromeDriver and geckodriver mustbe installed on the [system path](https://en.wikipedia.org/wiki/PATH_(variable)).
 
