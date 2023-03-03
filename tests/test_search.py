@@ -3,7 +3,7 @@ Using Duck Duck Go
 """
 
 
-def test_basic_duckduckgo_search():
+def test_basic_duckduckgo_search(browser):
 
     # Given the DuckDuckGO home page is displayed
     # TODO
