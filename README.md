@@ -28,7 +28,7 @@ pip install selenium
     - Mozilla Firefox: [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
     - Microsoft Edge: [EdgeDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
 
-ChromeDriver and geckodriver mustbe installed on the [system path](https://en.wikipedia.org/wiki/PATH_(variable)).
+ChromeDriver and geckodriver must be installed on the [system path](https://en.wikipedia.org/wiki/PATH_(variable)).
 
 5. Clone or download this repository to your local machine.
 
@@ -41,6 +41,24 @@ To Install ChromeDriver and geckodriver on Windows
 1. Create a folder named C:\Selenium.
 2. Move the executables into this folder.
 3. Add this folder to the Path environment variable. (See [How to Add to Windows PATH Environment Variable](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/).)
+
+## WebDriver SetUp for UNIX variants
+
+To install ChromeDriver and geckodriver on Linux, macOS, and other UNIX variants, simply move them to `/usr/loca/bin/` directory:
+```bash
+$ mv /path/to/ChromeDriver /usr/local/bin
+$ mv /path/to/geckodriver /usr/local/bin
+```
+
+This directory should already be included in the system path.
+
+To test, simply run from the terminal:
+```bash
+$ ChromeDriver
+$ geckodriver
+```
+
+You may or may not see any output. Just verify that you can run them without errors. Use Ctrl-C to kill them.
 
 ## Running the Tests
 
